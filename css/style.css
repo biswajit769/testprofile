@@ -1506,13 +1506,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer {
   background: #000;
   padding: 0 0 30px 0;
-  color: #eee;
+  color: #000;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #111;
+  background: #fff;
   padding: 60px 0 30px 0;
+  opacity: 0.9;
 }
 
 #footer .footer-top .footer-info {
@@ -1527,7 +1528,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #A30120;
+  /* border-left: 4px solid #A30120; */
+  padding-left: 0;
+}
+
+#footer .footer-top .footer-info h3 span {
+  color: #A91A23;
 }
 
 #footer .footer-top .footer-info p {
@@ -1535,14 +1541,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #eee;
+  color: #000;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #333;
-  color: #eee;
+  color: #fff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1561,7 +1567,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -1598,11 +1604,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 8px;
-  color: #ddd;
+  color: #000;
 }
 
 #footer .footer-top .footer-links ul li {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #000;
   padding: 10px 0;
 }
 
@@ -1611,7 +1617,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #eee;
+  color: #000;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -1658,6 +1664,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  color:#ddd;
 }
 
 #footer .credits {
@@ -1758,4 +1765,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .panel-group .panel-default>.panel-heading{
   background-color:#f7f7f7;
   border-color:none;
+}
+#businessfield .img-fluid{
+  height: 90px;
 }
