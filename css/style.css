@@ -1197,6 +1197,61 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
+#portfolio h3.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+#portfolio .testimonial-item{
+  text-align: center;
+}
+
+#portfolio .testimonial-item .testimonial-img {
+  width: 700px;
+  /* border-radius: 50%; */
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+
+#portfolio .testimonial-item h4 {
+  font-size: 14px;
+    color: #000;
+    margin: 15px 0 15px 0;
+}
+#portfolio .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  visibility: hidden;
+}
+
+#portfolio .icon i {
+  color: #A30120;
+  font-size: 36px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#portfolio h3.title {
+  margin-left: 60px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #A30120;
+}
+#clients .owl-carousel.owl-drag .owl-item{
+  border: 1px;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+#portfolio .icon {
+  float: left;
+}
+
 /* Clients Section
 --------------------------------*/
 
@@ -1277,6 +1332,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .testimonial-item .quote-sign-right {
+  margin-bottom: -15px;
+  padding-left: 10px;
+  display: inline-block;
+  max-width: 100%;
+  width: 37px;
+}
+
+#portfolio .testimonial-item .quote-sign-left {
+  margin-top: -15px;
+  padding-right: 10px;
+  display: inline-block;
+  width: 37px;
+}
+
+#portfolio .testimonial-item .quote-sign-right {
   margin-bottom: -15px;
   padding-left: 10px;
   display: inline-block;
@@ -1693,6 +1763,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width: 992px) {
   #testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  #portfolio .testimonial-item p {
     width: 80%;
   }
 }
