@@ -1864,3 +1864,6 @@ position: inherit;
   /* max-width: 600px; */
   /* max-height: 300px; */
 }
+#footer a{
+  color : #000;
+}
