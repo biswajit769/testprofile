@@ -1850,7 +1850,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #portfolio #myCarousel.carousel{
 position: inherit;
-padding-left:59px;
+/* padding-left:59px; */
 }
 #portfolio .segments-description{
   margin-top: 20px;
